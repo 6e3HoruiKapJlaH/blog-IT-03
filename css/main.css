@@ -81,10 +81,7 @@ ul.main_nav li:first-child a{
 	border-left: 1px #1e1e1e solid; 
 }
 
-ul.main_nav li.current a{
-	color: #58c93a;
-	box-shadow: 0 4px 0 #58c93a; 
-}
+
 
 ul.main_nav li a:hover{
 	background: #242424;
@@ -353,11 +350,7 @@ aside .textwidget p{
 }
 
 
-.wrapper{
-	width: 978px;
-	height: auto;
-	margin: 0 auto;
-}
+
 
 ul.main_nav li a,
 .main .title a,
@@ -375,4 +368,30 @@ ul.main_nav li a,
 	-webkit-transition: .2s linear;
 	-moz-transition: .2s linear;
 	-o-transition: .2s linear;
+}
+
+/* task 2 */
+p{
+	background-color: #58c93a;
+    text-align: end;
+}
+.wrapper{
+	width: 978px;
+	height: auto;
+	margin: 0 auto;
+}
+#search-field{
+	background-color: #482a6e;
+	font-size: 25px;
+	text-align: end;
+}
+h1 + p {
+border: #1e1e1e solid;
+}
+section> h3{
+	text-align: center;
+}
+a[target="_current"] {
+	color: #58c93a;
+	box-shadow: 0 4px 0 #58c93a; 
 }
