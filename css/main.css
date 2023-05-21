@@ -385,6 +385,7 @@ p{
 	font-size: 25px;
 	text-align: end;
 }
+
 h1 + p {
 border: #1e1e1e solid;
 }
